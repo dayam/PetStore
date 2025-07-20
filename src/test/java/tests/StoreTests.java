@@ -8,7 +8,6 @@ public class StoreTests extends BaseClass {
 	@Test
     public void getPetById() {
         var response = RestClient.get(BaseClass.baseUrl + "/store/inventory");
-        System.out.println(response+"DAYA");
         assertEquals(response.getStatusCode(), 200);
         assertTrue(response.getBody().asString().contains("available"));
     }

@@ -13,5 +13,7 @@ public class BaseClass {
         ConfigReader.loadConfig();
         baseUrl = ConfigReader.get("base.url");
     }
+	
+	
 
 }

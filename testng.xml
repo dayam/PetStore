@@ -8,10 +8,10 @@
 
   <test name="Pet API Tests">
     <classes>
-      <class name="tests.PetTests"/>
-       <class name="tests.StoreTests"/>
        <class name="tests.PostAddNewPetToStore"/>
-       
+       <class name="tests.GetPetByID"/>
+       <class name="tests.StoreTests"/>
+       <class name="tests.DeletesApet"/>
     </classes>
   </test>
 </suite> <!-- Suite -->
