@@ -6,12 +6,12 @@
   </listeners>
   <test thread-count="5" name="Pet API Tests(failed)">
     <classes>
-      <class name="tests.FindpetByID">
+      <class name="tests.DeletesApet">
         <methods>
           <include name="setup"/>
           <include name="getPetById"/>
         </methods>
-      </class> <!-- tests.FindpetByID -->
+      </class> <!-- tests.DeletesApet -->
     </classes>
   </test> <!-- Pet API Tests(failed) -->
 </suite> <!-- Failed suite [PetStoreAPI] -->
